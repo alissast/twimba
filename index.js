@@ -9,6 +9,7 @@ import { handleDeleteOptionClick } from './components/handleDeleteOptionClick.js
 import { handleSaveEditClick } from './components/handleSaveEditClick.js'
 import { handleCancelEditClick } from './components/handleCancelEditClick.js'
 import { render } from './components/render.js'
+import { tweetsData } from './data.js'
 
 document.addEventListener('click', function(e){
     if(e.target.dataset.like){
