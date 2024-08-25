@@ -10,7 +10,7 @@ export function handleSubmitReply(replyId){
     if(replyInput.value){
         const newReply = {
             handle: `@Scrimba`,
-            profilePic: `images/scrimbalogo.png`,
+            profilePic: `/images/scrimbalogo.png`,
             tweetText: replyInput.value
         }
         targetTweetObj.replies.unshift(newReply)
